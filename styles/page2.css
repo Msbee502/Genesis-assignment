@@ -1,0 +1,49 @@
+header {
+  width: 100%;
+  width: 1109px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  Top: 0;
+  overflow: hidden;
+  background: white;
+}
+
+nav {
+  font-family: "Tajawal", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a:visited {
+  color: #878786;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #a240a5;
+}
+
+a {
+  text-decoration: none;
+  color: #501C65;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=page2.css.map */
