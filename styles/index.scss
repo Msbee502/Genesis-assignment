@@ -1,78 +1,89 @@
 @use 'fonts';
 
 @import 'header'; 
+@import 'main';
 
 
-body {
-    font-family: fonts.$main-font;
-    min-height: 100vh;
-    margin-top: 25px;
-   }
 
 .containersection1 {
-    display: grid;
-    max-width: 1090px;
-    height: 251px;
+    max-width: 1109px;
     width: 100%;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-}
-.shootingstars {
-    grid-column: 1;
-    grid-row: 1;    
-    text-align: left;
-    margin: 0%;
+    height: 251px;
+    display: flex;   
+    width: 100%;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-between; 
+        
 }
 .hello {
-    grid-column: 1;
-    grid-row: 2 / 3;
+    width: 600px;
 }
 .design {
-    grid-row: 3;
-    grid-column: 2;
-    text-align: right;
-}
-
-.container-img {
-    grid-row: 3;
-    grid-column: span 2;
+    width: 300px;
 }
 
 .containersection2{
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
+    width: 1000px;
+    width: 100%;
+    height: 106px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-evenly; 
+    
 }
 .welove {
-    grid-column: span 3;
-    grid-row: span 3;
+    width: 635px;
+    width: 100%;
+    height: 106px;
+    
 }
 .multimedia {
-    grid-column: 4;
-    grid-row: 1;
-}
-.interactive {
-    grid-column: 4;
-    grid-row: 2;
-}
-.branding {
-    grid-column: 4;
-    grid-row: 3;
+    width: 200px;
+    width: 100%;
+    height: 106px;
+    
 }
 .creative {
-    grid-column: 5;
-    grid-row: 1;
-}
-.packaging {
-    grid-column: 5;
-    grid-row: 2;
-}
-.coding {
-    grid-column: 5;
-    grid-row: 3;
-}
-.containersection3 {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    width: 200px;
+    width: 100%;
+    height: 106px;
 }
 
+//     grid-template-columns: repeat(5, 1fr);
+//     grid-template-rows: 1fr 1fr 1fr;
+// }
+// .welove {
+//     grid-column: span 3;
+//     grid-row: span 3;
+// }
+// .multimedia {
+//     grid-column: 4;
+//     grid-row: 1;
+// }
+// .interactive {
+//     grid-column: 4;
+//     grid-row: 2;
+// }
+// .branding {
+//     grid-column: 4;
+//     grid-row: 3;
+// }
+// .creative {
+//     grid-column: 5;
+//     grid-row: 1;
+// }
+// .packaging {
+//     grid-column: 5;
+//     grid-row: 2;
+// }
+// .coding {
+//     grid-column: 5;
+//     grid-row: 3;
+// }
+// .containersection3 {
+//     display: grid;
+//     grid-template-columns: repeat(5, 1fr);
+//     grid-template-rows: repeat(5, 1fr);
+// }
