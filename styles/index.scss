@@ -1,17 +1,79 @@
-@use 'fonts';
+
 
 @import 'header'; 
-@import 'main'; 
 
 
 body {
-    font-family: fonts.$main-font;
-}
-
-body {
+   
     min-height: 100vh;
     margin-top: 100px;
    }
+
+.containersection1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.shootingstars {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.hello {
+    grid-column: 1;
+    grid-row: 2;
+}
+.design {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.container-img {
+    grid-row: 3;
+    grid-column: span 2;
+}
+
+.containersection2{
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.welove {
+    grid-column: span 3;
+    grid-row: span 3;
+}
+.multimedia {
+    grid-column: 4;
+    grid-row: 1;
+}
+.interactive {
+    grid-column: 4;
+    grid-row: 2;
+}
+.branding {
+    grid-column: 4;
+    grid-row: 3;
+}
+.creative {
+    grid-column: 5;
+    grid-row: 1;
+}
+.packaging {
+    grid-column: 5;
+    grid-row: 2;
+}
+.coding {
+    grid-column: 5;
+    grid-row: 3;
+}
+
+.containersection3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+
 /*
 nav {
     font-family: "Tajawal", system-ui;
