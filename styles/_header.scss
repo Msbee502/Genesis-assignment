@@ -3,6 +3,16 @@ header {
     width: 1109px;
     height: 100px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+footer {
+    width: 100%;
+    width: 1109px;
+    height: 100px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -11,21 +21,22 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 a:visited {
-    color: #878786;
+    color: $linkvisited;
+    text-decoration: $text-decoration;
+    color: $color;
 }
 
 a:hover {
-    text-decoration: underline;
-    font-weight: bold;
-    color: #a240a5
+    text-decoration: $underline;
+    font-weight: $font-weight;
+    color: $color;
 }
 
 a {
     text-decoration: none;
-    color: #501C65;
-    text-transform: uppercase;
+    color:$links;
+    text-transform: $text-transform;
 }

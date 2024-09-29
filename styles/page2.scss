@@ -1,2 +1,57 @@
 @import 'header';
 @import 'fonts';
+@import 'main';
+
+
+.containersection5 {
+    width: 1190px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    width: 475px;
+    height: 291px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Mulish", sans-serif;
+
+    .btn {
+        width: 125px;
+        margin-top: 50px;
+        background-color: #4A4FF2;
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .btn:hover {
+        background-color: #7ea7d5;
+    }
+    .btn:active {
+        background-color: #7ea7d5;
+        transform: translateY(4px);
+    }
+    .input {
+        background-color: #ffffff;
+    }
+    .label {
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        background-color: #ffffff;
+        border-bottom: black;
+    }
+    .input {
+        background-color: #ffffff;
+        
+    }
+    input:focus {
+        background-color: lightblue;
+      }
+    
+    textarea:focus {
+        background-color: lightblue;
+    }
+}
