@@ -1,7 +1,7 @@
 @use 'fonts';
-
-@import 'header'; 
 @import 'main';
+@import 'header'; 
+
 
 
 .containersection1 {
@@ -24,7 +24,7 @@
 
 .containersection2 {
     width: 1000px;
-    width: 100%;
+    max-width: 100%;
     height: 106px;
     display: flex;
     flex-direction: row;
@@ -34,24 +34,21 @@
 }
 .welove {
     width: 635px;
-    width: 100%;
+    max-width: 100%;
     height: 106px;
     
 }
 .multimedia {
     width: 200px;
-    width: 100%;
     height: 106px;
     
 }
 .creative {
     width: 200px;
-    width: 100%;
     height: 106px;
 }
 .containersection3 {
     width: 1000px;
-    width: 100%;
     height: 106px;
     display: flex;
     flex-direction: row;
