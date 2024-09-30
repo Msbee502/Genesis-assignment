@@ -1,67 +1,121 @@
 @use 'fonts';
+@import 'variables';
 @import 'main';
-@import 'header'; 
+@import 'header';
 
-
-
+body{
+    color: $text;
+}
 .containersection1 {
     max-width: 1109px;
     width: 100%;
     height: 251px;
-    display: flex;   
+    display: flex;
     width: 100%;
     flex-direction: row;
     align-items: end;
-    justify-content: space-between; 
-        
+    justify-content: space-between;
+
 }
+
 .hello {
     width: 600px;
 }
+
 .design {
     width: 300px;
 }
 
 .containersection2 {
-    width: 1000px;
-    max-width: 100%;
+    width: 1200px;
     height: 106px;
+    margin-top: 35px;
     display: flex;
     flex-direction: row;
     align-items: end;
-    justify-content: space-evenly; 
+    justify-content: space-between;
     
+
+    .containertext { 
+        width: 444px; 
+        margin-left: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+    .welove {
+        width: 400px;
+        max-width: 100%;
+        height: 106px;
+        align-items: left;
+    }
+
+    .multimedia {
+        width: 200px;
+        height: 106px;
+    }
+
+    .creative {
+        width: 200px;
+        height: 106px;
+        align-items: flex-end;
+    }
 }
-.welove {
-    width: 635px;
-    max-width: 100%;
-    height: 106px;
-    
-}
-.multimedia {
-    width: 200px;
-    height: 106px;
-    
-}
-.creative {
-    width: 200px;
-    height: 106px;
-}
+
 .containersection3 {
-    width: 1000px;
-    height: 106px;
+    max-width: 1110px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 600px;
     display: flex;
-    flex-direction: row;
-    align-items: end;
-    justify-content: space-evenly; 
-    
-} 
-.awwards .cssn {
-    width: $firstcolumn-width;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+
+
+
+    .section1 {
+        width: 222px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .section2 {
+        width: 444px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .section3 {
+        width: 222px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .section4 {
+        width: 222px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
 }
-.site .bestnav .text {
-    width: $secondcolumn-width;
-}
+
+// .awwards .cssn {
+//     width: $firstcolumn-width;
+// }
+
+// .site .bestnav .text {
+//     width: $secondcolumn-width;
+// }
 
 
 

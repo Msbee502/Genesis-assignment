@@ -1,26 +1,56 @@
 @use 'fonts';
+@import 'variables';
 @import 'main';
 @import 'header';
 
+body{
+    color: $text;
+}
 
-
-.containersection4 {
-    width: 1109px;
-    max-width: 100%;
-    height: 343px;
+.containersection4{
+    width: 1110px;
+    width: 100%;
+    height: 335px;
+    margin-top: 50px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: row;
+
+    .maintext {
+        width: 635px;
+        height: 335px;
+        display: flex;
+        flex-direction: column;
+    }
+   
+    .section1 {
+        width: 200px;
+        height: 335px;
+        margin-left: 50px; 
+        display: flex;
+        flex-direction: column;
+    }
+    .section2 {
+        width: 200px;
+        height: 335px;
+        margin-left: 25px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items:flex-end;
+    }
 }
 
 .containersection5 {
-    width: 1109px;
+    width: 1110px;
     max-width: 100%;
+    height: 1450px;
+    gap: 30px;
+    margin-top: 50px ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(10, 1fr);
 }
-
 .balloon {
     grid-row: 1 / 6;
     grid-column: 1 / 3;

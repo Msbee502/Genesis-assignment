@@ -9,27 +9,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../styles/page2.css">
-    <link rel="stylesheet" href="../styles/reset.css">
-    
+
+
     <title>Genesis</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <img src="img/Logo.svg" alt="Genesis Logo" class="logo">
+        <a href="../index.html">
+            <img src="/img/Logo.svg" alt="Genesis Logo" class="logo">
+            </a>
             <ul class="navigation">
-                <a href="/pages/projects.html">
+                <a href="../pages/page1.html">
                     <li>Projects</li>
                 </a>
-                <a href="/pages/contact.html">
+                <a href="../pages/page2.html">
                     <li>Contact</li>
                 </a>
             </ul>
         </nav>
     </header>
     <div class="containersection5">
-        <div>
+        <div class="maintext">
             <h1>Full set of great
                 features to make your
                 product fresh</h1>
@@ -38,23 +40,24 @@
         <div class="form">
             <form action="contact">
                 <label for="Fullnamne" class="label">Full name</label>
-                <input type="text" placeholder="Type your full name" class="input" required autofocus>
+                <input type="text" class="input" required autofocus>
                 <label for="Email" class="label">E-mail</label>
-                <input type="email" placeholder="Type your e-mail" class="input" required>
+                <input type="email" class="input" required>
                 <label for="Message" class="label">Message</label>
-                <textarea name="Yourmessage" class="input" cols="3" rows="1" placeholder="Type our message" required
+                <textarea name="Yourmessage" class="input" cols="5" rows="2" required
                     maxlength="200"></textarea>
-                <input type="button" value="Send message" class="btn">
+                    <a href="#">
+                <input type="button" value="Submit" class="btn"></a>
             </form>
         </div>
-        
-        <div> <img src="/img/Map.png" alt="Map"></div>
+
+        <div class="imgmap"> <img src="/img/Map.png" alt="Map"></div>
     </div>
 
 
     <footer>
         <nav>
-            <img src="img/Logo.svg" alt="Genesis Logo" class="logo">
+            <img src="/img/Logo.svg" alt="Genesis Logo" class="logo">
             <ul class="navigation">
                 <a href="/pages/projects.html">
                     <li>Projects</li>
@@ -62,7 +65,7 @@
                 <a href="/pages/contact.html">
                     <li>Contact</li>
                 </a>
-                <img src="img/Social.svg" alt="Social media">
+                <img src="/img/Social.svg" alt="Social media">
             </ul>
         </nav>
     </footer>
