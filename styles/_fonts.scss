@@ -13,14 +13,7 @@ $maintext: 16px;
     font-size: 18
 }
  
-@mixin bold-text {
-    @include regular-text;
-    font-weight: bold;
-}
- 
-@mixin italic-text {
-    @include regular-text;
-    font-style: italic;
-}
+
+
  
 
