@@ -74,6 +74,8 @@ a {
 
 body {
   color: black;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
 }
 
 .containersection4 {
@@ -99,6 +101,9 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+.containersection4 .title {
+  font-size: 40px bold;
 }
 .containersection4 .section1 {
   width: 200px;

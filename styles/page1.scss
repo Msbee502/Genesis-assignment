@@ -1,10 +1,11 @@
 @use 'fonts';
 @import 'variables';
 @import 'main';
-@import 'header';
 
 body{
     color: $text;
+    font-family: $main-font;
+    font-size: $maintextsize;
 }
 
 .containersection4{
@@ -15,17 +16,22 @@ body{
     display: flex;
     flex-direction: row;
 
+   
     .maintext {
         width: 635px;
         height: 335px;
         display: flex;
         flex-direction: column;
     }
-   
+    .title {
+        font-size: $h1;
+    } //this is not working, size doesn't change
+    
     .section1 {
         width: 200px;
         height: 335px;
         margin-left: 50px; 
+       // font-size: $h5; not working here either
         display: flex;
         flex-direction: column;
     }

@@ -1,4 +1,4 @@
-@use 'fonts';
+@use 'variables';
 
 body {
     font-family: 'mulish', sans-serif;
@@ -53,3 +53,5 @@ a {
     color:$links;
     text-transform: $text-transform;
 }
+
+ 

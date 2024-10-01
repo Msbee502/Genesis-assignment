@@ -74,6 +74,8 @@ a {
 
 body {
   color: black;
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
 }
 
 .containersection5 {
@@ -406,10 +408,10 @@ body {
 .form .input {
   background-color: #ffffff;
 }
-.form input:focus {
+.form .input:focus {
   background-color: lightblue;
 }
-.form textarea:focus {
+.form .textarea:focus {
   background-color: lightblue;
 }
 /*# sourceMappingURL=page2.css.map */

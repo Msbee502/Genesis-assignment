@@ -1,3 +1,26 @@
 $main-font: "Mulish", sans-serif;
 $maintext: 16px;
 
+ //tryed to use mixin in .scss-files but Prepros says that it is undefined. I wrote @inlcude medium-regular-text; in index.scss for example, but didnt work. 
+ //Why? So thats why I haven't used it anywhere.
+ 
+@mixin regular-text {
+    font-family: $main-font;
+    font-size: 16px;
+}
+@mixin medium-regular-text {
+    @include regular-text;
+    font-size: 18
+}
+ 
+@mixin bold-text {
+    @include regular-text;
+    font-weight: bold;
+}
+ 
+@mixin italic-text {
+    @include regular-text;
+    font-style: italic;
+}
+ 
+

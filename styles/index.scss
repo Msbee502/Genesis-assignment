@@ -1,15 +1,23 @@
 @use 'fonts';
 @import 'variables';
 @import 'main';
-@import 'header';
+
+// @mixin medium-regular-text {
+//     @include regular-text;
+//     font-size: 18
+// } Tried to add to add the mixin here cause it didn't work when I had it on a different page
 
 body{
     color: $text;
+    font-family: $main-font;
+    font-size: $maintextsize;
+   
 }
 .containersection1 {
     max-width: 1109px;
     width: 100%;
     height: 251px;
+    font-size: $h1;
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -30,6 +38,7 @@ body{
     width: 1200px;
     height: 106px;
     margin-top: 35px;
+    font-size: $h3;
     display: flex;
     flex-direction: row;
     align-items: end;
@@ -39,7 +48,9 @@ body{
     .containertext { 
         width: 444px; 
         margin-left: 50px;
+        font-size: $regular18;
         display: flex;
+        //@include medium-regular-text; this doesn't work, why? I get an Undefined Mixin from Prepros
         justify-content: space-evenly;
         align-items: flex-end;
     }
@@ -76,6 +87,7 @@ body{
 
     .section1 {
         width: 222px;
+        font-size: $h4;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -84,6 +96,7 @@ body{
     .section2 {
         width: 444px;
         margin-left: 50px;
+        font-size: $h5;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
