@@ -45,9 +45,8 @@ body{
 .grid {
     max-width: 1190px;
     width: 100%;
-    height: fit-content;
     display: grid;
-    justify-content: center;
+    justify-content: space-evenly;
     grid-template-columns: repeat(9, 1fr);
     grid-template-rows: repeat(32, 1fr);
     max-width: 1109px;
@@ -59,11 +58,11 @@ body{
     }
     .image2-2 {
         grid-row: 1 / 6;
-        grid-column: 3 / 6;
+        grid-column: 3 / 5;
     }
     .image3-3 {
         grid-row: 1 / 10;
-        grid-column: 6 / 9;
+        grid-column: 5 / 9;
     }
     .image4-4 {
         grid-row: 8 / 15;
@@ -71,11 +70,11 @@ body{
     }
     .image5-5 {
         grid-row: 7 / 13;
-        grid-column: 3 / 6;
+        grid-column: 3 / 5;
     }
     .image6-6 {
         grid-row: 11 / 17;
-        grid-column: 6 / 9;
+        grid-column: 5 / 9;
     }
     .image7-7 {
         grid-row: 16 / 23;
@@ -83,11 +82,11 @@ body{
     }
     .image8-8 {
         grid-row: 14 / 22;
-        grid-column: 3 / 6;
+        grid-column: 3 / 5;
     }
     .image9-9 {
         grid-row: 18 / 26;
-        grid-column: 6 / 9;
+        grid-column: 5 / 9;
     }
     .image10-1 {
         grid-row: 24 / 32;
@@ -95,11 +94,11 @@ body{
     }
     .image11-1 {
         grid-row: 23 / 32;
-        grid-column: 3 / 6;
+        grid-column: 3 / 5;
     }
     .image12-1 {
         grid-row: 27 / 32;
-        grid-column: 6 / 9;
+        grid-column: 5 / 9;
     }
 }
 
